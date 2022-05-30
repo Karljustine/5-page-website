@@ -1,0 +1,2971 @@
+HTML CODE: HOME 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> UTG international Online Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="utgstylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+   
+
+</head>
+<body class="utg-content" style="max-width:1200px">
+
+    <!-- Sidebar/menu -->
+    <nav class=" utg-bar-block utg-white utg-collapse utg-top" style="z-index:3;width:250px" id="mySidebar">
+        <div class="utg-container utg-display-container utg-padding-16">
+            <i onclick="utg_close ()" class="fa fa-remove utg-hide-large utg-button utg-display-topright "></i>
+            <h3 class="utg-wide"> UTG  </h3>
+        </div>
+        <div class="utg-padding-64 utg-large utg-text-grey" style="font-weight:bold">
+            <a href="Log in.html" class="utg-bar-item utg-button"> Log in </a>
+            
+
+   
+            <a href="Meet the team.html" class="utg-bar-item utg-button"> Meet the team </a>
+           
+            <a onclick="myAccFunc()" href="javascript:void(0)" class="utg-button utg-block utg-white utg-left-align" id="myBtn">
+                Jersey <i class="fa fa-caret-down"></i>
+            </a>
+            <div id="demoAcc" class="utg-bar-block utg-hide utg-padding-large utg-medium">
+                <a href="home.html" class="utg-bar-item utg-button utg-light-grey"><i class="fa fa-caret-right w3-margin-right"></i> UTG jersey  </a>
+                <a href="genesis page.html" class="utg-bar-item utg-button"> Genesis Jersey </a>
+                
+            </div>
+
+
+
+        </div>
+        <a href="#footer" class="utg-bar-item utg-button utg-padding">Contact</a>
+        <a href="javascript:void(0)" class="utg-bar-item utg-button utg-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a>
+        <a href="#footer" class="utg-bar-item utg-button utg-padding">Subscribe</a>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="utg-bar utg-top utg-hide-large utg-black utg-xlarge">
+        <div class="utg-bar-item utg-padding-24 utg-wide"> UTG </div>
+        <a href="javascript:void(0)" class="utg-bar-item utg-button utg-padding-24 utg-right" onclick="utg_open()"><i class="fa fa-bars"></i></a>
+    </header>
+
+   
+  
+
+    <!-- !PAGE CONTENT! -->
+    <div class="utg-main" style="margin-left:250px">
+
+        <!-- Push down content on small screens -->
+        <div class="utg-hide-large" style="margin-top:83px"></div>
+
+        <!-- Top header -->
+        <header class="utg-container utg-xlarge">
+            <p class="utg-left utg-sans-serif"> Jersey's </p>
+           
+            <p class="utg-right">
+                <i class="fa fa-shopping-cart utg-margin-right"></i>
+                <i class="fa fa-search"></i>
+            </p>
+        </header>
+
+        <!-- Image header -->
+        <div class="utg-display-container utg-container">
+           
+                <img src="Official team jersey.jpg" alt=" Official UTG Jersey " style="width:100%">
+                <div class="utg-display-topleft utg-text-white" style="padding:24px 48px">
+                    <h1 class="utg-jumbo utg-hide-small"> New arrivals </h1>
+                    <h1 class="utg-hide-large utg-hide-medium">New arrivals</h1>
+                    <h1 class="utg-hide-small"> COLLECTION 2022 </h1>
+                    <p><a href="#jeans" class="utg-button utg-green utg-padding-large utg-large">SHOP NOW</a></p>
+                </div>
+            </div>
+
+            <div class="utg-container utg-text-grey" id="jersey">
+                <p>5 items</p>
+            </div>
+
+            <!-- Product grid -->
+            <div class="utg-row">
+                <div class="utg-col l3 s6">
+                    <div class="utg-container">
+                        <img src="Squad Jersey Black.jpg" style="width:100%">
+
+
+                        <div class="utg-display-middle utg-display-hover">
+
+                        </div>
+
+                        <p>Squad Jersey ( Black ) <br><b class="utg-text-red"> SOLD OUT</b></p>
+
+                    </div>
+                    <div class="utg-container">
+                        <img src="Squad Jersey white.jpg" style="width:100%">
+
+
+                        <p>Squad Jersey ( White ) <br><b class="utg-text-red"> SOLD OUT</b></p>
+
+
+                    </div>
+                </div>
+
+                <div class="utg-col l3 s6 ">
+                    <div class="utg-container">
+                        <div class="utg-display-container">
+                            <img src="AR Jersey.jpg" style="width:100%">
+                            <span class="utg-tag utg-display-container utg-display-topleft"> SALE </span>
+                            <div class="utg-display-middle utg-display-hover">
+                                <p><a href="Checkout_AR.html" class="utg-button utg-green "> Buy now </a></p>
+                            </div>
+                        </div>
+                        <p> AR Jersey<br><b class="utg-text-red"> 40 dhs </b></p>
+                    </div>
+                    <div class="utg-container">
+                        <img src="Camo Jersey.jpg" style="width:100%">
+                        <p>Camo Jersey<br><b class="utg-text-red"> SOLD OUT</b></p>
+                    </div>
+                </div>
+
+                <div class="utg-col l3 s6">
+                    <div class="utg-container">
+                        <div class="utg-display-container">
+                            <img src="Squad Jersey Girls.jpg" style="width:100%">
+                            <span class="utg-tag utg-display-topleft">New</span>
+                            <div class="utg-display-middle utg-display-hover">
+                                <p><a href="Checkout_white.html" class="utg-button utg-green "> Buy now </a></p>
+                                <!-- link to in cart  -->
+                            </div>
+                        </div>
+                        <p> Squad Jersey ( Women ) <br><b> 85dhs</b></p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Subscribe section -->
+            <div class="utg-display-container utg-container ">
+                <img src="SQR1.jpg" alt=" SQR1" style=" width:100%">
+                <div class="utg-display-topleft utg-text-white" style="padding:24px 48px">
+                    <h1>Subscribe</h1>
+                    <p> To get special offers and VIP treatment: </p>
+                    <p><input class="utg-input utg-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+                    <button type="button" class="utg-button utg-green utg-margin-bottom">Subscribe</button>
+                </div>
+
+                <!-- Footer -->
+                <footer class="utg-padding-64 utg-light-grey utg-small utg-center" id="footer">
+                    <div class="utg-row-padding">
+                        <div class="utg-col s4">
+                            <h4>Contact</h4>
+                            <p>Questions? Go ahead.</p>
+                            <form action="/action_page.php" target="_blank">
+                                <p><input class="utg-input utg-border" type="text" placeholder="Name" name="Name" required></p>
+                                <p><input class="utg-input utg-border" type="text" placeholder="Email" name="Email" required></p>
+                                <p><input class="utg-input utg-border" type="text" placeholder="Subject" name="Subject" required></p>
+                                <p><input class="utg-input utg-border" type="text" placeholder="Message" name="Message" required></p>
+                                <button type="submit" class="utg-button utg-block utg-black">Send</button>
+                            </form>
+                        </div>
+
+                        <div class="utg-col s4">
+                            <h4>About</h4>
+                            <p><a href=" https://www.facebook.com/utginternationalph "> Facebook </a></p>
+                            <p><a href=" https://www.instagram.com/utgintlph/?fbclid=IwAR0saKna3iMJjwjdKtSZCgr_yiRfIewI8EWPpVp36PA0oWlx-3kv0lOm19s ">  Instagram </a></p>
+                            <p><a href=" https://twitter.com/utgintlph?fbclid=IwAR0y6bivJ2xSTPZFs_rllHHmiiIs6wDifaUOc6Xn7BSroGEE7iVe-Q8a4A0 "> Twitter </a></p>
+                            <p><a href=" https://www.tiktok.com/@utgintlph?is_from_webapp=1&sender_device=pc "> TikTok </a></p>
+
+                        </div>
+
+                        <div class="utg-col s4 utg-justify">
+                            <h4>Store</h4>
+                            <p><i class="fa fa-fw fa-map-marker"></i> SQR1 </p>
+                            <p><i class="fa fa-fw fa-phone"></i> +63 915 1844175 </p>
+                            <p><i class="fa fa-fw fa-envelope"></i> utginternationalph@gmail.com </p>
+                            <h4>We accept</h4>
+                            <p><i class="fa fa-fw fa-cc-amex"></i> Liv </p>
+
+                            <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+                            <br>
+                            <i class="fa fa-facerbook-official utg-hover-opacity utg-large"></i>
+                            <i class="fa fa-instagam utg-hover-opacity utg-large"></i>
+                            <i class="fa fa-snapchat utg-hover-opacity utg-large"></i>
+                            <i class="fa fa-pinterest-p utg-hover-opacity utg-large"></i>
+                            <i class="fa fa-twitter utg-hover-opacity utg-large"></i>
+                            <i class="fa fa-linkedin utg-hover-opacity utg-large"></i>
+                        </div>
+                    </div>
+                </footer>
+
+
+
+                
+            </div>
+
+            <!-- Newsletter -->
+            <div id="newsletter" class="utg-modal">
+                <div class="utg-modal-content utg-animate-zoom" style="padding:32px">
+                    <div class="utg-container utg-white utg-center">
+                        <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right utg-button utg-transparent utg-xxlarge"></i>
+                        <h2 class="utg-wide"> NEWSLETTER </h2>
+                        <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+                        <p><input class="utg-input utg-border" type="text" placeholder="Enter e-mail"></p>
+                        <button type="button" class="utg-button utg-padding-large utg-green utg-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script>
+        // Accordion
+        function myAccFunc() {
+            var x = document.getElementById("demoAcc");
+            if (x.className.indexOf("utg-show") == -1) {
+                x.className += " utg-show";
+            } else {
+                x.className = x.className.replace(" utg-show", "");
+            }
+        }
+
+
+        // Click on the " Jersey " link on page load to open the accordion for demo purposes
+        document.getElementById("myBtn").click();
+
+
+        // Open and close sidebar
+        function utg_open() {
+            document.getElementById("mySideBar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+    </script>
+
+  </body>
+</html>
+
+
+
+
+///////////
+HTML CODE : MEET THE TEAM
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> UTG international Online Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="utgstylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+</head>
+<body class="utg-content" style="max-width:1200px">
+
+    <!-- Sidebar/menu -->
+    <nav class=" utg-bar-block utg-white utg-collapse utg-top" style="z-index:3;width:250px" id="mySidebar">
+        <div class="utg-container utg-display-container utg-padding-16">
+            <i onclick="utg_close ()" class="fa fa-remove utg-hide-large utg-button utg-display-topright "></i>
+            <h3 class="utg-wide">  </h3>
+        </div>
+        <div class="utg-padding-64 utg-large utg-text-grey" style="font-weight:bold">
+            <a href="Log in.html" class="utg-bar-item utg-button"> Log in </a>
+            <a href="Meet the team.html" class="utg-bar-item utg-button"> Meet the team </a>
+            
+            <a onclick="myAccFunc()" href="javascript:void(0)" class="utg-button utg-block utg-white utg-left-align" id="myBtn">
+                Jersey <i class="fa fa-caret-down"></i>
+            </a>
+            <div id="demoAcc" class="utg-bar-block utg-hide utg-padding-large utg-medium">
+                <a href="home.html" class="utg-bar-item utg-button utg-light-grey"><i class="fa fa-caret-right w3-margin-right"></i> UTG jersey  </a>
+                <a href="genesis page.html" class="utg-bar-item utg-button"> Genesis Jersey </a>
+               
+            </div>
+
+
+
+        </div>
+        <a href="#footer" class="utg-bar-item utg-button utg-padding">Contact</a>
+        <a href="javascript:void(0)" class="utg-bar-item utg-button utg-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a>
+        <a href="#footer" class="utg-bar-item utg-button utg-padding">Subscribe</a>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="utg-bar utg-top utg-hide-large utg-black utg-xlarge">
+        <div class="utg-bar-item utg-padding-24 utg-wide"> UTG </div>
+        <a href="javascript:void(0)" class="utg-bar-item utg-button utg-padding-24 utg-right" onclick="utg_open()"><i class="fa fa-bars"></i></a>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="utg-overlay utg-hide-large" onclick="utg_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="utg-main" style="margin-left:250px">
+
+        <!-- Push down content on small screens -->
+        <div class="utg-hide-large" style="margin-top:83px"></div>
+
+        <!-- Top header -->
+        <header class="utg-container utg-xlarge">
+            <p class="utg-left"> Meet the Team </p>
+            <p class="utg-right">
+                <i class="fa fa-shopping-cart utg-margin-right"></i>
+                <i class="fa fa-search"></i>
+            </p>
+        </header>
+
+       
+       
+
+        <!-- Meet the Team -->
+
+        <img src="UTG 2.1.jpg" alt=" Meet The Team " style="width:100%">
+        <p>
+            UTG International is one of the Top Tier 1 team in the Philippines under PUBG Mobile online platform.
+            The names together with the image beside as it follows from left to right. Jordan Ramos "H2r" as the Midman of the team.
+            Rappy Limpong "Fire" as the Sniper. Clyde Rom "IgieGOD" as Support Fragger and Igie Boy Castro "Zygote" as Entry Fragger
+            and the Captain of the Team. Together they became UTG PRO 2.0, the most awaited and exciting team in the PUBG Mobile scene
+            that you're looking forward to watch and support.
+        </p>
+
+
+        <!-- Subscribe section -->
+        <div class="utg-display-container utg-container ">
+            <img src="SQR1.jpg" alt=" SQR1" style=" width:100%">
+            <div class="utg-display-topleft utg-text-white" style="padding:24px 48px">
+                <h1>Subscribe</h1>
+                <p> To get special offers and VIP treatment: </p>
+                <p><input class="utg-input utg-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+                <button type="button" class="utg-button utg-green utg-margin-bottom">Subscribe</button>
+            </div>
+
+            <!-- Footer -->
+            <footer class="utg-padding-64 utg-light-grey utg-small utg-center" id="footer">
+                <div class="utg-row-padding">
+                    <div class="utg-col s4">
+                        <h4>Contact</h4>
+                        <p>Questions? Go ahead.</p>
+                        <form action="/action_page.php" target="_blank">
+                            <p><input class="utg-input utg-border" type="text" placeholder="Name" name="Name" required></p>
+                            <p><input class="utg-input utg-border" type="text" placeholder="Email" name="Email" required></p>
+                            <p><input class="utg-input utg-border" type="text" placeholder="Subject" name="Subject" required></p>
+                            <p><input class="utg-input utg-border" type="text" placeholder="Message" name="Message" required></p>
+                            <button type="submit" class="utg-button utg-block utg-black">Send</button>
+                        </form>
+                    </div>
+
+                    <div class="utg-col s4">
+                        <h4>About</h4>
+                        <p><a href=" https://www.facebook.com/utginternationalph "> Facebook </a></p>
+                        <p><a href=" https://www.instagram.com/utgintlph/?fbclid=IwAR0saKna3iMJjwjdKtSZCgr_yiRfIewI8EWPpVp36PA0oWlx-3kv0lOm19s ">  Instagram </a></p>
+                        <p><a href=" https://twitter.com/utgintlph?fbclid=IwAR0y6bivJ2xSTPZFs_rllHHmiiIs6wDifaUOc6Xn7BSroGEE7iVe-Q8a4A0 "> Twitter </a></p>
+                        <p><a href=" https://www.tiktok.com/@utgintlph?is_from_webapp=1&sender_device=pc "> TikTok </a></p>
+
+                    </div>
+
+                    <div class="utg-col s4 utg-justify">
+                        <h4>Store</h4>
+                        <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
+                        <p><i class="fa fa-fw fa-phone"></i> +63 915 1844175 </p>
+                        <p><i class="fa fa-fw fa-envelope"></i> utginternationalph@gmail.com </p>
+                        <h4>We accept</h4>
+                        <p><i class="fa fa-fw fa-cc-amex"></i> Liv </p>
+
+                        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+                        <br>
+                        <i class="fa fa-facerbook-official utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-instagam utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-snapchat utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-pinterest-p utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-twitter utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-linkedin utg-hover-opacity utg-large"></i>
+                    </div>
+                </div>
+            </footer>
+
+
+
+            <!-- End page content -->
+        </div>
+
+        <!-- Newsletter Model -->
+        <div id="newsletter" class="utg-modal">
+            <div class="utg-modal-content utg-animate-zoom" style="padding:32px">
+                <div class="utg-container utg-white utg-center">
+                    <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right utg-button utg-transparent utg-xxlarge"></i>
+                    <h2 class="utg-wide"> NEWSLETTER </h2>
+                    <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+                    <p><input class="utg-input utg-border" type="text" placeholder="Enter e-mail"></p>
+                    <button type="button" class="utg-button utg-padding-large utg-red utg-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Accordion
+        function myAccFunc() {
+            var x = document.getElementById("demoAcc");
+            if (x.className.indexOf("utg-show") == -1) {
+                x.className += " utg-show";
+            } else {
+                x.className = x.className.replace(" utg-show", "");
+            }
+        }
+
+        // Click on the " Jersey " link on page load to open the accordion for demo purposes
+        document.getElementById("myBtn").click();
+
+
+        // Open and close sidebar
+        function utg_open() {
+            document.getElementById("mySideBar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function utg_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>
+
+
+///////////
+
+HTML CODE: LOG IN
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="utgstylesheet.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="imgcontainer">
+
+        <img src="utg_avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" onclick="location.href='home.html'"> Login </button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <a href="home.html" button type=" button"> Cancel </a>
+        <span class="psw">Don't have an Account? <a href=" # "> Register </a></span>
+    </div>
+
+
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+///////////
+
+HTML CODE: GENESIS
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> UTG international Online Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="utgstylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+</head>
+<body class="utg-content" style="max-width:1200px">
+
+    <!-- Sidebar/menu -->
+    <nav class=" utg-bar-block utg-white utg-collapse utg-top" style="z-index:3;width:250px" id="mySidebar">
+        <div class="utg-container utg-display-container utg-padding-16">
+            <i onclick="utg_close ()" class="fa fa-remove utg-hide-large utg-button utg-display-topright "></i>
+            <h3 class="utg-wide">  </h3>
+        </div>
+        <div class="utg-padding-64 utg-large utg-text-grey" style="font-weight:bold">
+            <a href="Log in.html" class="utg-bar-item utg-button"> Log in </a>
+            <a href="Meet the team.html" class="utg-bar-item utg-button"> Meet the team </a>
+            <
+            <a onclick="myAccFunc()" href="javascript:void(0)" class="utg-button utg-block utg-white utg-left-align" id="myBtn">
+                Jersey <i class="fa fa-caret-down"></i>
+            </a>
+            <div id="demoAcc" class="utg-bar-block utg-hide utg-padding-large utg-medium">
+                <a href="home.html" class="utg-bar-item utg-button utg-light-grey"><i class="fa fa-caret-right w3-margin-right"></i> UTG jersey  </a>
+                <a href="genesis page.html" class="utg-bar-item utg-button"> Genesis Jersey </a>
+                
+            </div>
+
+
+
+        </div>
+        <a href="#footer" class="utg-bar-item utg-button utg-padding">Contact</a>
+        <a href="javascript:void(0)" class="utg-bar-item utg-button utg-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a>
+        <a href="#footer" class="utg-bar-item utg-button utg-padding">Subscribe</a>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="utg-bar utg-top utg-hide-large utg-black utg-xlarge">
+        <div class="utg-bar-item utg-padding-24 utg-wide"> UTG </div>
+        <a href="javascript:void(0)" class="utg-bar-item utg-button utg-padding-24 utg-right" onclick="utg_open()"><i class="fa fa-bars"></i></a>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="utg-overlay utg-hide-large" onclick="utg_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="utg-main" style="margin-left:250px">
+
+        <!-- Push down content on small screens -->
+        <div class="utg-hide-large" style="margin-top:83px"></div>
+
+        <!-- Top header -->
+        <header class="utg-container utg-xlarge">
+            <p class="utg-left"> Genesis Jersey </p>
+            <p class="utg-right">
+                <i class="fa fa-shopping-cart utg-margin-right"></i>
+                <i class="fa fa-search"></i>
+            </p>
+        </header>
+
+        <!-- Image header -->
+     
+
+        <!-- Product grid -->
+        <div class="utg-row">
+            <div class="utg-col l3 s6">
+                <div class="utg-container">
+                    <img src="gensis-jersey.png" style="width:100%">
+                    
+                    <div class="utg-display-middle utg-display-hover">
+                        <button class="utg-button utg-green"> Buy now <i href="About us.html"></i></button>
+                    </div>
+
+                    <p>Squad Jersey ( Black ) <br><b class="utg-text-red"> COMING SOON </b></p>
+
+                </div>
+             
+            </div>
+
+         
+        </div>
+
+
+        <!-- Subscribe section -->
+        <div class="utg-display-container utg-container ">
+            <img src="SQR1.jpg" alt=" SQR1" style=" width:100%">
+            <div class="utg-display-topleft utg-text-white" style="padding:24px 48px">
+                <h1>Subscribe</h1>
+                <p> To get special offers and VIP treatment: </p>
+                <p><input class="utg-input utg-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+                <button type="button" class="utg-button utg-green utg-margin-bottom">Subscribe</button>
+            </div>
+
+            <!-- Footer -->
+            <footer class="utg-padding-64 utg-light-grey utg-small utg-center" id="footer">
+                <div class="utg-row-padding">
+                    <div class="utg-col s4">
+                        <h4>Contact</h4>
+                        <p>Questions? Go ahead.</p>
+                        <form action="/action_page.php" target="_blank">
+                            <p><input class="utg-input utg-border" type="text" placeholder="Name" name="Name" required></p>
+                            <p><input class="utg-input utg-border" type="text" placeholder="Email" name="Email" required></p>
+                            <p><input class="utg-input utg-border" type="text" placeholder="Subject" name="Subject" required></p>
+                            <p><input class="utg-input utg-border" type="text" placeholder="Message" name="Message" required></p>
+                            <button type="submit" class="utg-button utg-block utg-black">Send</button>
+                        </form>
+                    </div>
+
+                    <div class="utg-col s4">
+                        <h4>About</h4>
+                        <p><a href=" https://www.facebook.com/utginternationalph "> Facebook </a></p>
+                        <p><a href=" https://www.instagram.com/utgintlph/?fbclid=IwAR0saKna3iMJjwjdKtSZCgr_yiRfIewI8EWPpVp36PA0oWlx-3kv0lOm19s ">  Instagram </a></p>
+                        <p><a href=" https://twitter.com/utgintlph?fbclid=IwAR0y6bivJ2xSTPZFs_rllHHmiiIs6wDifaUOc6Xn7BSroGEE7iVe-Q8a4A0 "> Twitter </a></p>
+                        <p><a href=" https://www.tiktok.com/@utgintlph?is_from_webapp=1&sender_device=pc "> TikTok </a></p>
+
+                    </div>
+
+                    <div class="utg-col s4 utg-justify">
+                        <h4>Store</h4>
+                        <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
+                        <p><i class="fa fa-fw fa-phone"></i> +63 915 1844175 </p>
+                        <p><i class="fa fa-fw fa-envelope"></i> utginternationalph@gmail.com </p>
+                        <h4>We accept</h4>
+                        <p><i class="fa fa-fw fa-cc-amex"></i> Liv </p>
+
+                        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+                        <br>
+                        <i class="fa fa-facerbook-official utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-instagam utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-snapchat utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-pinterest-p utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-twitter utg-hover-opacity utg-large"></i>
+                        <i class="fa fa-linkedin utg-hover-opacity utg-large"></i>
+                    </div>
+                </div>
+            </footer>
+
+
+
+            <!-- End page content -->
+        </div>
+
+        <!-- Newsletter Model -->
+        <div id="newsletter" class="utg-modal">
+            <div class="utg-modal-content utg-animate-zoom" style="padding:32px">
+                <div class="utg-container utg-white utg-center">
+                    <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right utg-button utg-transparent utg-xxlarge"></i>
+                    <h2 class="utg-wide"> NEWSLETTER </h2>
+                    <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+                    <p><input class="utg-input utg-border" type="text" placeholder="Enter e-mail"></p>
+                    <button type="button" class="utg-button utg-padding-large utg-red utg-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Accordion
+        function myAccFunc() {
+            var x = document.getElementById("demoAcc");
+            if (x.className.indexOf("utg-show") == -1) {
+                x.className += " utg-show";
+            } else {
+                x.className = x.className.replace(" utg-show", "");
+            }
+        }
+
+        // Click on the " Jersey " link on page load to open the accordion for demo purposes
+        document.getElementById("myBtn").click();
+
+
+        // Open and close sidebar
+        function utg_open() {
+            document.getElementById("mySideBar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function utg_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+//////////
+HTML CODE: CHECKOUT_AR
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial;
+            font-size: 17px;
+            padding: 8px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            margin: 0 -16px;
+        }
+
+        .col-25 {
+            -ms-flex: 25%; /* IE10 */
+            flex: 25%;
+        }
+
+        .col-50 {
+            -ms-flex: 50%; /* IE10 */
+            flex: 50%;
+        }
+
+        .col-75 {
+            -ms-flex: 75%; /* IE10 */
+            flex: 75%;
+        }
+
+        .col-25,
+        .col-50,
+        .col-75 {
+            padding: 0 16px;
+        }
+
+        .container {
+            background-color: #f2f2f2;
+            padding: 5px 20px 15px 20px;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+        }
+
+        input[type=text] {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .icon-container {
+            margin-bottom: 20px;
+            padding: 7px 0;
+            font-size: 24px;
+        }
+
+        .btnutg {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px;
+            margin: 2px;
+            border: none;
+            width: 100%;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+            .btn:hover {
+                background-color: #45a049;
+            }
+
+        a {
+            color: #2196F3;
+        }
+
+        hr {
+            border: 1px solid lightgrey;
+        }
+
+        span.price {
+            float: right;
+            color: grey;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+        @media (max-width: 800px) {
+            .row {
+                flex-direction: column-reverse;
+            }
+
+            .col-25 {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="/action_page.php">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Billing Address</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder=" Karl Justine D. Dayawon">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="john@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                            <label for="city"><i class="fa fa-institution"></i> City</label>
+                            <input type="text" id="city" name="city" placeholder="New York">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="state">State</label>
+                                    <input type="text" id="state" name="state" placeholder="NY">
+                                </div>
+                                <div class="col-50">
+                                    <label for="zip">Zip</label>
+                                    <input type="text" id="zip" name="zip" placeholder="10001">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Payment</h3>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange;"></i>
+                            </div>
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Exp Year</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                    </label>
+
+                    <a href="home.html" class="btnutg"> Submit </a>
+                </form>
+            </div>
+        </div>
+        <div class="col-25">
+            <div class="container">
+                <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b></b></span></h4>
+                <p><a href="">AR Jersey</a> <span class="price">40dhs</span></p>
+              
+                <hr>
+                <p>Total <span class="price" style="color:black"><b>40dhs</b></span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+///////
+HTML CODE : CHECK OUT ( WHITE JERSEY ) 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial;
+            font-size: 17px;
+            padding: 8px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            margin: 0 -16px;
+        }
+
+        .col-25 {
+            -ms-flex: 25%; /* IE10 */
+            flex: 25%;
+        }
+
+        .col-50 {
+            -ms-flex: 50%; /* IE10 */
+            flex: 50%;
+        }
+
+        .col-75 {
+            -ms-flex: 75%; /* IE10 */
+            flex: 75%;
+        }
+
+        .col-25,
+        .col-50,
+        .col-75 {
+            padding: 0 16px;
+        }
+
+        .container {
+            background-color: #f2f2f2;
+            padding: 5px 20px 15px 20px;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+        }
+
+        input[type=text] {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .icon-container {
+            margin-bottom: 20px;
+            padding: 7px 0;
+            font-size: 24px;
+        }
+
+        .btnutg {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px;
+            margin: 2px;
+            border: none;
+            width: 100%;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        a {
+            color: #2196F3;
+        }
+
+        hr {
+            border: 1px solid lightgrey;
+        }
+
+        span.price {
+            float: right;
+            color: grey;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+        @media (max-width: 800px) {
+            .row {
+                flex-direction: column-reverse;
+            }
+
+            .col-25 {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="/action_page.php">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Billing Address</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder=" Karl Justine D. Dayawon">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="john@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                            <label for="city"><i class="fa fa-institution"></i> City</label>
+                            <input type="text" id="city" name="city" placeholder="New York">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="state">State</label>
+                                    <input type="text" id="state" name="state" placeholder="NY">
+                                </div>
+                                <div class="col-50">
+                                    <label for="zip">Zip</label>
+                                    <input type="text" id="zip" name="zip" placeholder="10001">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Payment</h3>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange;"></i>
+                            </div>
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Exp Year</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                    </label>
+
+                    <a href="home.html" class="btnutg"> Submit </a>
+                </form>
+            </div>
+        </div>
+        <div class="col-25">
+            <div class="container">
+                <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b></b></span></h4>
+                <p><a href=""> Squad Jersey ( Women ) </a> <span class="price">85dhs</span></p>
+
+                <hr>
+                <p>Total <span class="price" style="color:black"><b>85dhs</b></span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+////////
+CSS CODE :
+
+.utg-sidebar a {
+    font-family: "Roboto", sans-serif
+}
+
+body, h1, h2, h3, h4, h5, h6, .w3-wide {
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    box-sizing: border-box
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+audio, canvas, progress, video {
+    display: inline-block
+}
+
+progress {
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+    a:active, a:hover {
+        outline-width: 0
+    }
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b, strong {
+    font-weight: bolder
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+img {
+    border-style: none
+}
+
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button, input, select, textarea, optgroup {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
+}
+
+    button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+        border-style: none;
+        padding: 0
+    }
+
+    button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+        outline: 1px dotted ButtonText
+    }
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+    [type=search]::-webkit-search-decoration {
+        -webkit-appearance: none
+    }
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+/* End extract */
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5
+}
+
+html {
+    overflow-x: hidden
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+serif {
+    font-family: serif
+}
+
+.utg-sans-serif {
+    font-family: sans-serif
+}
+
+.utg-cursive {
+    font-family: cursive
+}
+
+.utg-monospace {
+    font-family: monospace
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+.utg-wide {
+    letter-spacing: 4px
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0
+}
+
+.utg-image {
+    max-width: 100%;
+    height: auto
+}
+
+img {
+    vertical-align: middle
+}
+
+a {
+    color: inherit
+}
+
+.utg-table, .utg-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.utg-table-all {
+    border: 1px solid #ccc
+}
+
+    .utg-bordered tr, .utg-table-all tr {
+        border-bottom: 1px solid #ddd
+    }
+
+.utg-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.utg-table-all tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.utg-table-all tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.utg-hoverable tbody tr:hover, .w3-ul.w3-hoverable li:hover {
+    background-color: #ccc
+}
+
+.utg-centered tr th, .utg-centered tr td {
+    text-align: center
+}
+
+.utg-table td, .utg-table th, .utg-table-all td, .utg-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+    .utg-table th:first-child, .utg-table td:first-child, .utg-table-all th:first-child, .utg-table-all td:first-child {
+        padding-left: 16px
+    }
+
+.utg-btn, .utg-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+    .utg-btn:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+    }
+
+.utg-btn, .utg-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+    .utg-disabled, .utg-btn:disabled, .utg-button:disabled {
+        cursor: not-allowed;
+        opacity: 0.3
+    }
+
+        .utg-disabled *, :disabled * {
+            pointer-events: none
+        }
+
+        .utg-btn.w3-disabled:hover, .utg-btn:disabled:hover {
+            box-shadow: none
+        }
+
+.utg-badge, .utg-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+
+.utg-badge {
+    border-radius: 50%
+}
+
+.utg-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+    .utg-ul li {
+        padding: 8px 16px;
+        border-bottom: 1px solid #ddd
+    }
+
+        .utg-ul li:last-child {
+            border-bottom: none
+        }
+
+.utg-tooltip, .utg-display-container {
+    position: relative
+}
+
+    .utg-tooltip .utg-text {
+        display: none
+    }
+
+    .utg-tooltip:hover .utg-text {
+        display: inline-block
+    }
+
+.utg-ripple:active {
+    opacity: 0.5
+}
+
+.utg-ripple {
+    transition: opacity 0s
+}
+
+.utg-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.utg-select {
+    padding: 9px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc
+}
+
+.utg-dropdown-click, .utg-dropdown-hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer
+}
+
+    .utg-dropdown-hover:hover .utg-dropdown-content {
+        display: block
+    }
+
+    .utg-dropdown-hover:first-child, .utg-dropdown-click:hover {
+        background-color: #ccc;
+        color: #000
+    }
+
+        .utg-dropdown-hover:hover > .utg-button:first-child, .utg-dropdown-click:hover > .utg-button:first-child {
+            background-color: #ccc;
+            color: #000
+        }
+
+.utg-dropdown-content {
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1
+}
+
+.utg-check, .utg-radio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px
+}
+
+.utg-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto
+}
+
+.utg-bar-block .utg-dropdown-hover, .utg-bar-block .utg-dropdown-click {
+    width: 100%
+}
+
+    .utg-bar-block .utg-dropdown-hover .utg-dropdown-content, .utg-bar-block .utg-dropdown-click .utg-dropdown-content {
+        min-width: 100%
+    }
+
+    .utg-bar-block .utg-dropdown-hover .utg-button, .utg-bar-block .utg-dropdown-click .utg-button {
+        width: 100%;
+        text-align: left;
+        padding: 8px 16px
+    }
+
+.utg-main, #main {
+    transition: margin-left .4s
+}
+
+.utg-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4)
+}
+
+.utg-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px
+}
+
+.utg-bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.utg-center .utg-bar {
+    display: inline-block;
+    width: auto
+}
+
+.utg-bar .utg-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.utg-bar .utg-dropdown-hover, .utg-bar .utg-dropdown-click {
+    position: static;
+    float: left
+}
+
+.utg-bar .utg-button {
+    white-space: normal
+}
+
+.utg-bar-block .utg-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.utg-bar-block .utg-center .utg-bar-item {
+    text-align: center
+}
+
+.utg-block {
+    display: block;
+    width: 100%
+}
+
+.utg-responsive {
+    display: block;
+    overflow-x: auto
+}
+
+.utg-container:after, .utg-container:before, .utg-panel:after, .utg-panel:before, .utg-row:after, .utg-row:before, .utg-row-padding:after, .utg-row-padding:before,
+.utg-cell-row:before, .utg-cell-row:after, .utg-clear:after, .utg-clear:before, .utg-bar:before, .utg-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.utg-col, .utg-half, .utg-third, .utg-twothird, .utg-threequarter, .utg-quarter {
+    float: left;
+    width: 100%
+}
+
+    .utg-col.s1 {
+        width: 8.33333%
+    }
+
+    .utg-col.s2 {
+        width: 16.66666%
+    }
+
+    .utg-col.s3 {
+        width: 24.99999%
+    }
+
+    .utg-col.s4 {
+        width: 33.33333%
+    }
+
+    .utg-col.s5 {
+        width: 41.66666%
+    }
+
+    .utg-col.s6 {
+        width: 49.99999%
+    }
+
+    .utg-col.s7 {
+        width: 58.33333%
+    }
+
+    .utg-col.s8 {
+        width: 66.66666%
+    }
+
+    .utg-col.s9 {
+        width: 74.99999%
+    }
+
+    .utg-col.s10 {
+        width: 83.33333%
+    }
+
+    .utg-col.s11 {
+        width: 91.66666%
+    }
+
+    .utg-col.s12 {
+        width: 99.99999%
+    }
+
+@media (min-width:601px) {
+    .utg-col.m1 {
+        width: 8.33333%
+    }
+
+    .utg-col.m2 {
+        width: 16.66666%
+    }
+
+    .utg-col.m3, .utg-quarter {
+        width: 24.99999%
+    }
+
+    .utg-col.m4, .utg-third {
+        width: 33.33333%
+    }
+
+    .utg-col.m5 {
+        width: 41.66666%
+    }
+
+    .utg-col.m6, .utg-half {
+        width: 49.99999%
+    }
+
+    .utg-col.m7 {
+        width: 58.33333%
+    }
+
+    .utg-col.m8, utg-twothird {
+        width: 66.66666%
+    }
+
+    .utg-col.m9, .utg-threequarter {
+        width: 74.99999%
+    }
+
+    .utg-col.m10 {
+        width: 83.33333%
+    }
+
+    .utg-col.m11 {
+        width: 91.66666%
+    }
+
+    .utg-col.m12 {
+        width: 99.99999%
+    }
+}
+
+@media (min-width:993px) {
+    .utg-col.l1 {
+        width: 8.33333%
+    }
+
+    .utg-col.l2 {
+        width: 16.66666%
+    }
+
+    .utg-col.l3 {
+        width: 24.99999%
+    }
+
+    .utg-col.l4 {
+        width: 33.33333%
+    }
+
+    .utg-col.l5 {
+        width: 41.66666%
+    }
+
+    .utg-col.l6 {
+        width: 49.99999%
+    }
+
+    .utg-col.l7 {
+        width: 58.33333%
+    }
+
+    .utg-col.l8 {
+        width: 66.66666%
+    }
+
+    .utg-col.l9 {
+        width: 74.99999%
+    }
+
+    .utg-col.l10 {
+        width: 83.33333%
+    }
+
+    .utg-col.l11 {
+        width: 91.66666%
+    }
+
+    .utg-col.l12 {
+        width: 99.99999%
+    }
+}
+
+.utg-rest {
+    overflow: hidden
+}
+
+.utg-stretch {
+    margin-left: -16px;
+    margin-right: -16px
+}
+
+.utg-content, .w3-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.utg-content {
+    max-width: 980px
+}
+
+.utg-auto {
+    max-width: 1140px
+}
+
+.utg-cell-row {
+    display: table;
+    width: 100%
+}
+
+.utg-cell {
+    display: table-cell
+}
+
+.utg-cell-top {
+    vertical-align: top
+}
+
+.utg-cell-middle {
+    vertical-align: middle
+}
+
+.utg-cell-bottom {
+    vertical-align: bottom
+}
+
+.utg-hide {
+    display: none !important
+}
+
+.utg-show-block, .utg-show {
+    display: block !important
+}
+
+.utg-show-inline-block {
+    display: inline-block !important
+}
+
+@media (max-width:1205px) {
+    .utg-auto {
+        max-width: 95%
+    }
+}
+
+@media (max-width:600px) {
+    .utg-modal-content {
+        margin: 0 10px;
+        width: auto !important
+    }
+
+    .utg-modal {
+        padding-top: 30px
+    }
+
+    .utg-dropdown-hover .utg-mobile .utg-dropdown-content, .utg-dropdown-click .utg-mobile .utg-dropdown-content {
+        position: relative
+    }
+
+    .utg-hide-small {
+        display: none !important
+    }
+
+    .utg-mobile {
+        display: block;
+        width: 100% !important
+    }
+
+    .utg-bar-item .utg-mobile, .utg-dropdown-hover.utg-mobile, .utg-dropdown-click.utg-mobile {
+        text-align: center
+    }
+
+        .utg-dropdown-hover.utg-mobile, .utg-dropdown-hover.utg-mobile .utg-btn, .utg-dropdown-hover.utg-mobile .utg-button, .utg-dropdown-click.utg-mobile, .utg-dropdown-click.utg-mobile .utg-btn, .utg-dropdown-click.utg-mobile .utg-button {
+            width: 100%
+        }
+}
+
+@media (max-width:768px) {
+    .utg-modal-content {
+        width: 500px
+    }
+
+    .utg-modal {
+        padding-top: 50px
+    }
+}
+
+@media (min-width:993px) {
+    .utg-modal-content {
+        width: 900px
+    }
+
+    .utg-hide-large {
+        display: none !important
+    }
+
+    .utg-sidebar.utg-collapse {
+        display: block !important
+    }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+    .utg-hide-medium {
+        display: none !important
+    }
+}
+
+@media (max-width:992px) {
+    .utg-sidebar.utg-collapse {
+        display: none
+    }
+
+    .utg-main {
+        margin-left: 0 !important;
+        margin-right: 0 !important
+    }
+
+    .utg-auto {
+        max-width: 100%
+    }
+}
+
+.utg-top, .utg-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.utg-top {
+    top: 0
+}
+
+.utg-bottom {
+    bottom: 0
+}
+
+.utg-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2
+}
+
+.utg-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.utg-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.utg-display-bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.utg-display-bottomright {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.utg-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%)
+}
+
+.utg-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%)
+}
+
+.utg-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%)
+}
+
+.utg-display-topmiddle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%)
+}
+
+.utg-display-bottommiddle {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%)
+}
+
+.utg-display-container:hover .utg-display-hover {
+    display: block
+}
+
+.utg-display-container:hover span.utg-display-hover {
+    display: inline-block
+}
+
+.utg-display-hover {
+    display: none
+}
+
+.utg-display-position {
+    position: absolute
+}
+
+.utg-circle {
+    border-radius: 50%
+}
+
+.utg-round-small {
+    border-radius: 2px
+}
+
+.utg-round, .utg-round-medium {
+    border-radius: 4px
+}
+
+.utg-round-large {
+    border-radius: 8px
+}
+
+.utg-round-xlarge {
+    border-radius: 16px
+}
+
+.utg-round-xxlarge {
+    border-radius: 32px
+}
+
+.utg-row-padding, .utg-row-padding > .utg-half, .utg-row-padding > .utg-third, .utg-row-padding > .utg-twothird, .utg-row-padding > .utg-threequarter, .utg-row-padding > .utg-quarter, .utg-row-padding > .utg-col {
+    padding: 0 8px
+}
+
+.utg-container, .utg-panel {
+    padding: 0.01em 16px
+}
+
+.utg-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.utg-code, .utg-codespan {
+    font-family: Consolas,"courier new";
+    font-size: 16px
+}
+
+.utg-code {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word
+}
+
+.utg-codespan {
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%
+}
+
+.utg-card, .utg-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+.utg-card-4, .utg-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.utg-spin {
+    animation: w3-spin 2s infinite linear
+}
+
+@keyframes w3-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(359deg)
+    }
+}
+
+.utg-animate-fading {
+    animation: fading 10s infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.utg-animate-opacity {
+    animation: opac 0.8s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.utganimate-top {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.utg-animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.utg-animate-right {
+    position: relative;
+    animation: animateright 0.4s
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.utg-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.utg-animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.utg-animate-input {
+    transition: width 0.4s ease-in-out
+}
+
+    .utg-animate-input:focus {
+        width: 100% !important
+    }
+
+.utg-opacity, .utg-hover-opacity:hover {
+    opacity: 0.60
+}
+
+.utg-opacity-off, .utg-hover-opacity-off:hover {
+    opacity: 1
+}
+
+.utg-opacity-max {
+    opacity: 0.25
+}
+
+.utg-opacity-min {
+    opacity: 0.75
+}
+
+
+
+greyscale, grayscale {
+    filter: grayscale(75%)
+}
+
+.utg-greyscale-min, .utg-grayscale-min {
+    filter: grayscale(50%)
+}
+
+.utg-sepia {
+    filter: sepia(75%)
+}
+
+.utg-sepia-max, .utg-hover-sepia:hover {
+    filter: sepia(100%)
+}
+
+.utg-sepia-min {
+    filter: sepia(50%)
+}
+
+.utg-tiny {
+    font-size: 10px !important
+}
+
+.utg-small {
+    font-size: 12px !important
+}
+
+.utg-medium {
+    font-size: 15px !important
+}
+
+utg-large {
+    font-size: 18px !important
+}
+
+.utg-xlarge {
+    font-size: 24px !important
+}
+
+.utg-xxlarge {
+    font-size: 36px !important
+}
+
+.utg-xxxlarge {
+    font-size: 48px !important
+}
+
+.utg-jumbo {
+    font-size: 64px !important
+}
+
+.utg-left-align {
+    text-align: left !important
+}
+
+.utg-right-align {
+    text-align: right !important
+}
+
+.utg-justify {
+    text-align: justify !important
+}
+
+.utg-center {
+    text-align: center !important
+}
+
+.utg-border-0 {
+    border: 0 !important
+}
+
+.utg-border {
+    border: 1px solid #ccc !important
+}
+
+.utg-border-top {
+    border-top: 1px solid #ccc !important
+}
+
+.utg-border-bottom {
+    border-bottom: 1px solid #ccc !important
+}
+
+.utg-border-left {
+    border-left: 1px solid #ccc !important
+}
+
+.utg-border-right {
+    border-right: 1px solid #ccc !important
+}
+
+.utg-topbar {
+    border-top: 6px solid #ccc !important
+}
+
+.utg-bottombar {
+    border-bottom: 6px solid #ccc !important
+}
+
+.utg-leftbar {
+    border-left: 6px solid #ccc !important
+}
+
+.utg-rightbar {
+    border-right: 6px solid #ccc !important
+}
+
+.utg-section, .utg-code {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
+
+.utg-margin {
+    margin: 16px !important
+}
+
+.utg-margin-top {
+    margin-top: 16px !important
+}
+
+.utg-margin-bottom {
+    margin-bottom: 16px !important
+}
+
+.utg-margin-left {
+    margin-left: 16px !important
+}
+
+.utg-margin-right {
+    margin-right: 16px !important
+}
+
+.utg-padding-small {
+    padding: 4px 8px !important
+}
+
+.utg-padding {
+    padding: 8px 16px !important
+}
+
+.utg-padding-large {
+    padding: 12px 24px !important
+}
+
+.utg-padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
+.utg-padding-24 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important
+}
+
+.utg-padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important
+}
+
+.utg-padding-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important
+}
+
+.utg-padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.utg-padding-top-64 {
+    padding-top: 64px !important
+}
+
+.utg-padding-top-48 {
+    padding-top: 48px !important
+}
+
+.utg-padding-top-32 {
+    padding-top: 32px !important
+}
+
+.utg-padding-top-24 {
+    padding-top: 24px !important
+}
+
+.utg-left {
+    float: left !important
+}
+
+.utg-right {
+    float: right !important
+}
+
+.utg-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}
+
+.utg-transparent, .utg-hover-none:hover {
+    background-color: transparent !important
+}
+
+.utg-hover-none:hover {
+    box-shadow: none !important
+}
+
+
+/* Colors */
+utg-amber, .utg-hover-amber:hover {
+    color: #000 !important;
+    background-color: #ffc107 !important
+}
+
+.utg-aqua, .utg-hover-aqua:hover {
+    color: #000 !important;
+    background-color: #00ffff !important
+}
+
+.utg-blue, .utg-hover-blue:hover {
+    color: #fff !important;
+    background-color: #2196F3 !important
+}
+
+.utg-light-blue, .utg-hover-light-blue:hover {
+    color: #000 !important;
+    background-color: #87CEEB !important
+}
+
+.utg-brown, .utg-hover-brown:hover {
+    color: #fff !important;
+    background-color: #795548 !important
+}
+
+.utg-cyan, .utg-hover-cyan:hover {
+    color: #000 !important;
+    background-color: #00bcd4 !important
+}
+
+.utg-blue-grey, .utg-hover-blue-grey:hover, .utg-blue-gray, .utg-hover-blue-gray:hover {
+    color: #fff !important;
+    background-color: #607d8b !important
+}
+
+.utg-green, .utg-hover-green:hover {
+    color: #fff !important;
+    background-color: #4CAF50 !important
+}
+
+.utg-light-green, .utg-hover-light-green:hover {
+    color: #000 !important;
+    background-color: #8bc34a !important
+}
+
+.utg-indigo, .utg-hover-indigo:hover {
+    color: #fff !important;
+    background-color: #3f51b5 !important
+}
+
+.utg-khaki, .utg-hover-khaki:hover {
+    color: #000 !important;
+    background-color: #f0e68c !important
+}
+
+.utg-lime, .utg-hover-lime:hover {
+    color: #000 !important;
+    background-color: #cddc39 !important
+}
+
+.utg-orange, .utg-hover-orange:hover {
+    color: #000 !important;
+    background-color: #ff9800 !important
+}
+
+.utg-deep-orange, .utg-hover-deep-orange:hover {
+    color: #fff !important;
+    background-color: #ff5722 !important
+}
+
+.utg-pink, .utg-hover-pink:hover {
+    color: #fff !important;
+    background-color: #e91e63 !important
+}
+
+.utg-purple, .utg-hover-purple:hover {
+    color: #fff !important;
+    background-color: #9c27b0 !important
+}
+
+.utg-deep-purple, .utg-hover-deep-purple:hover {
+    color: #fff !important;
+    background-color: #673ab7 !important
+}
+
+.utg-red, .utg-hover-red:hover {
+    color: #fff !important;
+    background-color: #f44336 !important
+}
+
+.utg-sand, .utg-hover-sand:hover {
+    color: #000 !important;
+    background-color: #fdf5e6 !important
+}
+
+.utg-teal, .utg-hover-teal:hover {
+    color: #fff !important;
+    background-color: #009688 !important
+}
+
+.utg-yellow, .utg-hover-yellow:hover {
+    color: #000 !important;
+    background-color: #ffeb3b !important
+}
+
+.utg-white, .utg-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+.utg-black, .utg-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.utg-grey, .utg-hover-grey:hover, .utg-gray, .utg-hover-gray:hover {
+    color: #000 !important;
+    background-color: #9e9e9e !important
+}
+
+.utg-light-grey, .utg-hover-light-grey:hover, .utg-light-gray, .utg-hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.utg-dark-grey, .utg-hover-dark-grey:hover, .utg-dark-gray, .utg-hover-dark-gray:hover {
+    color: #fff !important;
+    background-color: #616161 !important
+}
+
+.utg-pale-red, .utg-hover-pale-red:hover {
+    color: #000 !important;
+    background-color: #ffdddd !important
+}
+
+.utg-pale-green, .utg-hover-pale-green:hover {
+    color: #000 !important;
+    background-color: #ddffdd !important
+}
+
+.utg-pale-yellow, .utg-hover-pale-yellow:hover {
+    color: #000 !important;
+    background-color: #ffffcc !important
+}
+
+.utg-pale-blue, .utg-hover-pale-blue:hover {
+    color: #000 !important;
+    background-color: #ddffff !important
+}
+
+.utg-text-amber, .utg-hover-text-amber:hover {
+    color: #ffc107 !important
+}
+
+.utg-text-aqua, .utg-hover-text-aqua:hover {
+    color: #00ffff !important
+}
+
+.utg-text-blue, .utg-hover-text-blue:hover {
+    color: #2196F3 !important
+}
+
+.utg-text-light-blue, .utg-hover-text-light-blue:hover {
+    color: #87CEEB !important
+}
+
+.utg-text-brown, .utg-hover-text-brown:hover {
+    color: #795548 !important
+}
+
+.utg-text-cyan, .utg-hover-text-cyan:hover {
+    color: #00bcd4 !important
+}
+
+.utg-text-blue-grey, .utg-hover-text-blue-grey:hover, .utg-text-blue-gray, .utg-hover-text-blue-gray:hover {
+    color: #607d8b !important
+}
+
+.utg-text-green, .utg-hover-text-green:hover {
+    color: #4CAF50 !important
+}
+
+.utg-text-light-green, .utg-hover-text-light-green:hover {
+    color: #8bc34a !important
+}
+
+.utg-text-indigo, .utg-hover-text-indigo:hover {
+    color: #3f51b5 !important
+}
+
+.utg-text-khaki, .utg-hover-text-khaki:hover {
+    color: #b4aa50 !important
+}
+
+.utg-text-lime, .utg-hover-text-lime:hover {
+    color: #cddc39 !important
+}
+
+.utg-text-orange, .utg-hover-text-orange:hover {
+    color: #ff9800 !important
+}
+
+.utg-text-deep-orange, .utg-hover-text-deep-orange:hover {
+    color: #ff5722 !important
+}
+
+.utg-text-pink, .utg-hover-text-pink:hover {
+    color: #e91e63 !important
+}
+
+.utg-text-purple, .utg-hover-text-purple:hover {
+    color: #9c27b0 !important
+}
+
+.utg-text-deep-purple, .utg-hover-text-deep-purple:hover {
+    color: #673ab7 !important
+}
+
+.utg-text-red, .utg-hover-text-red:hover {
+    color: #f44336 !important
+}
+
+.utg-text-sand, .utg-hover-text-sand:hover {
+    color: #fdf5e6 !important
+}
+
+.utg-text-teal, .utg-hover-text-teal:hover {
+    color: #009688 !important
+}
+
+.utg-text-yellow, .utg-hover-text-yellow:hover {
+    color: #d2be0e !important
+}
+
+.utg-text-white, .utg-hover-text-white:hover {
+    color: #fff 
+}
+
+.utg-text-black, .utg-hover-text-black:hover {
+    color: #000 
+}
+
+.utg-text-grey, .utg-hover-text-grey:hover, .utg-text-gray, .utg-hover-text-gray:hover {
+    color: #757575 !important
+}
+
+.utg-text-light-grey, .utg-hover-text-light-grey:hover, .utg-text-light-gray, .utg-hover-text-light-gray:hover {
+    color: #f1f1f1 !important
+}
+
+.utg-text-dark-grey, .utg-hover-text-dark-grey:hover, .utg-text-dark-gray, .utg-hover-text-dark-gray:hover {
+    color: #3a3a3a !important
+}
+
+.utg-border-amber, .utg-hover-border-amber:hover {
+    border-color: #ffc107 !important
+}
+
+.utg-border-aqua, .utg-hover-border-aqua:hover {
+    border-color: #00ffff !important
+}
+
+.utg-border-blue, .utg-hover-border-blue:hover {
+    border-color: #2196F3 !important
+}
+
+.utg-border-light-blue, .utg-hover-border-light-blue:hover {
+    border-color: #87CEEB !important
+}
+
+.utg-border-brown, .utg-hover-border-brown:hover {
+    border-color: #795548 !important
+}
+
+.utg-border-cyan, .utg-hover-border-cyan:hover {
+    border-color: #00bcd4 !important
+}
+
+.utg-border-blue-grey, .utg-hover-border-blue-grey:hover, .utg-border-blue-gray, .utg-hover-border-blue-gray:hover {
+    border-color: #607d8b !important
+}
+
+.utg-border-green, .utg-hover-border-green:hover {
+    border-color: #4CAF50 !important
+}
+
+.utg-border-light-green, .utg-hover-border-light-green:hover {
+    border-color: #8bc34a !important
+}
+
+.utg-border-indigo, .utg-hover-border-indigo:hover {
+    border-color: #3f51b5 !important
+}
+
+.utg-border-khaki, .utg-hover-border-khaki:hover {
+    border-color: #f0e68c !important
+}
+
+.utg-border-lime, .utg-hover-border-lime:hover {
+    border-color: #cddc39 !important
+}
+
+.utg-border-orange, .utg-hover-border-orange:hover {
+    border-color: #ff9800 !important
+}
+
+.utg-border-deep-orange, .utg-hover-border-deep-orange:hover {
+    border-color: #ff5722 !important
+}
+
+.utg-border-pink, .utg-hover-border-pink:hover {
+    border-color: #e91e63 !important
+}
+
+.utg-border-purple, .utg-hover-border-purple:hover {
+    border-color: #9c27b0 !important
+}
+
+.utg-border-deep-purple, .utg-hover-border-deep-purple:hover {
+    border-color: #673ab7 !important
+}
+
+.utg-border-red, .utg-hover-border-red:hover {
+    border-color: #f44336 !important
+}
+
+.utg-border-sand, .utg-hover-border-sand:hover {
+    border-color: #fdf5e6 !important
+}
+
+.utg-border-teal, .utg-hover-border-teal:hover {
+    border-color: #009688 !important
+}
+
+.utg-border-yellow, .utg-hover-border-yellow:hover {
+    border-color: #ffeb3b !important
+}
+
+.utg-border-white, .utg-hover-border-white:hover {
+    border-color: #fff !important
+}
+
+.utg-border-black, .utg-hover-border-black:hover {
+    border-color: #000 !important
+}
+
+.utg-border-grey, .utg-hover-border-grey:hover, .utg-border-gray, .utg-hover-border-gray:hover {
+    border-color: #9e9e9e !important
+}
+
+.utg-border-light-grey, .utg-hover-border-light-grey:hover, .utg-border-light-gray, .utg-hover-border-light-gray:hover {
+    border-color: #f1f1f1 !important
+}
+
+.utg-border-dark-grey, .utg-hover-border-dark-grey:hover, .utg-border-dark-gray, .utg-hover-border-dark-gray:hover {
+    border-color: #616161 !important
+}
+
+.utg-border-pale-red, .utg-hover-border-pale-red:hover {
+    border-color: #ffe7e7 !important
+}
+
+.w3-border-pale-green, .w3-hover-border-pale-green:hover {
+    border-color: #e7ffe7 !important
+}
+
+.utg-border-pale-yellow, .utg-hover-border-pale-yellow:hover {
+    border-color: #ffffcc !important
+}
+
+.utg-border-pale-blue, .utg-hover-border-pale-blue:hover {
+    border-color: #e7ffff !important
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 25%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Create acc html CSS */
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
